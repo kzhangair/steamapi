@@ -19,3 +19,4 @@ for pagenum in range(1, 955):
 		csvWriter.writerow([tr.attrs['data-appid']])
 
 fo.close()
+
