@@ -1,7 +1,7 @@
 import csv
 
 fo = open('DataSet.csv', 'r')
-fw = open('washedDataSet.csv', 'wb')
+fw = open('cleanedDataSet.csv', 'wb')
 
 csvReader = csv.reader(fo)
 csvWriter = csv.writer(fw,delimiter="\v",lineterminator="\a")
